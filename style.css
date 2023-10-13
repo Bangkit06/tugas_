@@ -1,0 +1,167 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items:center ;
+}
+
+nav ul li {
+    margin: 25px;
+    font-size: 25px;
+    
+}
+
+nav ul li .active{
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    background-color:burlywood;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius:15px;
+}
+
+.nav-left{
+    
+    flex: 50%;
+}
+
+.nav-right{
+    
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+}
+
+.nav-right a{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.nav-right a:hover{
+    background-color:burlywood;
+    color: black;
+    font-weight: bold;
+}
+
+.conten{
+    width: 70%;
+    
+    border-radius: 10px;
+    padding: 20px 20px;
+    display: flex;
+    margin:70px auto ;
+    box-shadow: 10px 10px;
+}
+
+.justify {
+    text-align: justify;
+}
+.button {
+    display: flex;
+    margin-top: 50px;
+}
+.contact a{
+    background-color: black;
+    color: white;
+    padding:10px 15px ;
+    border-radius: 20px;
+}
+.contact a:hover{
+    background-color:burlywood;
+    color: black;
+    font-weight: bold;
+}
+.cv a{
+    margin-left: 20px;
+}
+
+
+.icon{
+    margin-top: 50px;
+}
+.icon a{
+    margin: 10px;
+    font-size: 30px;
+}
+.sec-left{
+    margin-left: 100px;
+    
+    flex: 50%;
+}
+.sec-right{
+    
+    flex: 50%;
+    text-align: center;
+    margin: 15px auto;
+}
+.bungkus {
+    background-color:burlywood;
+    width: 50%;
+    height: 450px;
+    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    margin: 0 auto;
+}
+.h2{
+    margin: 25px 0 0 0;
+    padding: 0;
+}
+.p{
+    padding: 0;
+    margin: 0;
+}
+.photo{
+    background-color: rgb(51, 50, 50);
+    width: 100%;
+
+    
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.photo img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+}
+.akhir{
+    
+    align-items: center;
+}
+.you{
+    margin-bottom: 80px;
+    margin-left: 34%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.you{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
